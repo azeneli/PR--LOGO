@@ -1,0 +1,47 @@
+.proLogo__circle {
+	width: 20%;
+	float: left;
+	background-color: red;
+	height: 50vh;
+}
+
+.proLogo__logo {
+	width: 80%;
+	background-color: yellow;
+	float: left;
+	height: 100vh;
+	position: relative;
+}
+
+.proLogo__logo-img-parent {
+	width: 50px;
+  	height: 200px;
+  	z-index: 15;
+  	position: absolute;
+  		top: 25%;
+  		left: 50%;
+  	margin: -100px 0 0 -150px;
+}
+
+.proLogo__logo-img {
+
+}
+
+.proLogo__circle-shape {
+	background-color: #80C5A0;
+    width: 50%;
+    height: 100px;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transform: rotate(90deg);
+}
+
+.proLogo__logo-title {
+	font-size: 5rem;	
+}
+
+.proLogo__logo-title--color {
+	color: #AC5B5B;
+}
+
